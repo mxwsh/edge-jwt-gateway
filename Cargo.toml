@@ -1,0 +1,12 @@
+[package]
+name = "edge-jwt-gateway"
+version = "0.1.0"
+edition = "2021"
+authors = ["max <shultsmaxwell@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+worker = { version = "0.8" }
+worker-macros = { version = "0.8" }
